@@ -3,7 +3,7 @@ import pydub
 # Original audio file path
 audio = pydub.AudioSegment.from_file(original_audio_path)
 
-wav_audio_path = "C:\Users\cefar\Downloads\WhatsApp_Audio.wav"
+wav_audio_path = "Path"
 audio.export(wav_audio_path, format="wav")
 
 # Load the .wav audio file
